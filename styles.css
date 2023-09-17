@@ -1,0 +1,62 @@
+/* CSS Reset to remove default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f2f2f2; /* Replace with your desired header background color */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 150px; /* Adjust the width as needed */
+}
+
+.banner img {
+    width: 100%;
+}
+
+.about-us, .contact-us {
+    padding: 20px;
+}
+
+.about-us h2, .contact-us h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-us p, .contact-us p {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #007bff; /* Replace with your desired button color */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
